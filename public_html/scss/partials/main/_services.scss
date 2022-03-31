@@ -1,0 +1,42 @@
+$service-item-text: #f5f5f5;
+$service-item-title: #1e1e1e;
+.services{
+    
+    .service-item{
+        .service-item-header{
+            .service-item-image{
+                flex: 0 0 83px;
+                width: 83px;
+            }
+            .service-item-title{
+                flex: 0 0 calc(100% - 83px);
+                width: calc(100% - 83px);
+                padding-left: 1.2rem;
+                color:$service-item-title;
+                font-size: 1.4rem;
+                line-height: 2.2rem;
+                letter-spacing: 1.14px;
+                text-transform: uppercase;
+                text-decoration: none;
+                font-weight: 500;
+            }
+        }
+        
+        .service-item-data{
+            display: none;
+            p{
+                color:$service-item-text;
+            }
+            a{
+                font-weight: 500;
+                font-size: 1.4rem;
+                line-height: 1.7rem;
+                text-decoration: none;
+                transition: 0.2s linear;
+                &:hover{
+                    padding-left: 10px;
+                }
+            }
+        }
+    }
+}

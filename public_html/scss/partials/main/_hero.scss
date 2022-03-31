@@ -6,8 +6,10 @@
     background-size: cover;
     background-position: right center;
     background-repeat: no-repeat;
+    margin-bottom: 50px;
     @media(min-width: 768px){
         background-size: contain;
+        margin-bottom: 77px;
     }
     
     .hero-content{
