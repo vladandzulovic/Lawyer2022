@@ -18,7 +18,7 @@ $spacers: (
   3: $spacer * 1.5,
   4: $spacer * 2,
   5: $spacer * 2.5,
-  6:c$spacer * 3,
+  6: $spacer * 3,
   7: $spacer * 3.5,
   8: $spacer * 4 ,
   9: $spacer * 4.5,
@@ -43,5 +43,10 @@ $container-max-widths: (
   xl: 1140px, //1140
   //xxl: 1320px
 );
-$blue : #1A77CD;
+$primary : #1A77CD;
 $body-color: #1e1e1e;
+$navbar-light-toggler-border-color: $primary;
+
+$navbar-light-color: $body-color;               ;
+$navbar-light-hover-color:   $primary;
+$navbar-light-active-color: $primary;
