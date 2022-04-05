@@ -1,9 +1,27 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit this template
-*/
-/*
-    Created on : Mar 29, 2022, 3:03:24 PM
-    Author     : frontend
-*/
-
+footer{
+    .copyright{
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        font-weight: 500;
+        color:#586C88;
+        @media(min-width: 768px){
+            margin-bottom: 0;
+        }
+        a{
+            text-decoration: none;
+            color:inherit;
+        }
+    }
+    
+    .social{
+        a{
+            font-size: 2rem;
+            color:#322c3f;
+            text-decoration: none;
+            margin-right: 5px;
+            &:last-of-type{
+                margin-right: 0;
+            }
+        }
+    }
+}
