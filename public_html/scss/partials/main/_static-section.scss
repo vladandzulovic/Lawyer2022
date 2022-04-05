@@ -1,7 +1,16 @@
 
-.static-page{
+.static-page,
+.single-service{
     margin-bottom: 70px;
     @media(min-width: 992px){
         margin-bottom: 133px;
+    }
+    
+    .static-page-content,
+    .single-service-content{
+        ul{
+            padding-left: 0;
+            list-style: none;
+        }
     }
 }
