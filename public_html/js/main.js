@@ -75,9 +75,7 @@ if ($('.contact-form').length > 0) {
                         email: true
                     },
                     message:{
-                        required: true,
-                        maxlength: 255
-                        
+                        required: true                       
                     }
                 },
                 messages: {
@@ -89,8 +87,7 @@ if ($('.contact-form').length > 0) {
                         email: 'Please insert valid Email address!!!'
                     },
                     message:{
-                        required: 'Message* is required field!!!',
-                        maxlength: 'Max Message length is 255 characters !!!'
+                        required: 'Message* is required field!!!'
                         
                     }
 

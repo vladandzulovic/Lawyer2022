@@ -11,7 +11,7 @@
         background-size: 50% auto;
         margin-bottom: 77px;
     }
-    
+
     .hero-content{
         background-color: rgba(#fff, 0.8);
         padding: 15px;
@@ -20,11 +20,21 @@
         @media(min-width:992px){
             padding: 0;
         }
-        
+
         h1{
             @media(min-width:992px){
                 font-size: 5rem;
                 line-height: 6.4rem;
+            }
+        }
+        p{
+            span{
+                margin-right: 10px;
+                color: #6994D2;
+            }
+            a{
+                text-decoration: none;
+                color: #586C88;
             }
         }
     }
